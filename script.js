@@ -10,13 +10,7 @@ function myMenuFunction(){
   }
 
 
-//   const toggleThemeButton = document.querySelector("#toggle-theme-button");
 
-//   toggleThemeButton.addEventListener("click",()=>{
-//     const isLightMode= document.body.classList.toggle("light_mode");
-//     localStorage.setItem("themeColor",isLightMode ? "light_mode":"drak_mode");
-//     toggleThemeButton.innerText= isLightMode ? "dark_mode":"light_mode";
-//  })
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
